@@ -44,7 +44,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 
 ### **Main Analysis**
 - newcarproject.py
-- [Student Management System Tutorial](https://youtu.be/k9ICA7LDIZQ?si=lM6tCC1Le-C9Ruy7)
+- [Raw Dataset](autoscout24-germany-raw_dataset.csv)
   Auto-generated Python script from the Colab notebook containing:
   - Data cleaning steps  
   - KPI calculations  
