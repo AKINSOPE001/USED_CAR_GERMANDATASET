@@ -27,8 +27,19 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
     pip install pandas, numpy, matplotlib, seaborn ,plotly ipywidgets
 
 ## ⚙️How to Run the Analysis
+```mermaid
+flowchart TD
 
+    A[Open Notebook in Google Colab] --> B[Enable Widget Support]
+    B --> C[Upload Raw Dataset]
+    C --> D[Load CSV into Pandas]
+    D --> E[Run All Cells Top to Bottom]
+    E --> F[Interact With Widgets & Charts]
+    F --> G[(Optional) Export Cleaned CSV]
 
+    classDef step fill:#E8F1FF,stroke:#2F5FFF,stroke-width:1px,color:#000,border-radius:6px;
+    class A,B,C,D,E,F,G step;
+```
 
 ## 🔐 Key questions addressed:
 - What is the average price, mileage, and horsepower of used cars?
@@ -135,21 +146,6 @@ Plotly Dashboards Tutorials on Plotly.com
 ## 🧪 Technologies Used:
 This project was developed using Python in the Google Colab environment, leveraging libraries such as Pandas and NumPy for data cleaning and preprocessing, Matplotlib, Seaborn, and Plotly Express for interactive and static visualizations, and Ipywidgets for building interactive dashboards with dropdowns and KPI cards. The dataset consisted of German used-car listings with features including make, model, year, mileage, horsepower, fuel type, gear, and price. Markdown and HTML were used to document insights and display dashboard elements, enabling a clear and interactive exploration of the German used-car market.
 
-
-
-```markdown
-```mermaid
-flowchart LR
-
-    A([Open in Colab]) --> B([Enable Widget Support])
-    B --> C([Upload Dataset])
-    C --> D([Load CSV File])
-    D --> E([Run All Cells])
-    E --> F([Interact With KPIs & Charts])
-    F --> G([Optional: Export Cleaned Data])
-
-    classDef node fill:#F5F9FF,stroke:#0077FF,stroke-width:2px,color:#000,border-radius:8px;
-    class A,B,C,D,E,F,G node;
 
 
               Developed by Akinsope Idowu, ReDI School Data Analytics student (WINTER 2025)
