@@ -45,14 +45,16 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 ### **Main Analysis**
 - newcarproject.py
 - [Raw Dataset](autoscout24-germany-raw_dataset.csv)
-  Auto-generated Python script from the Colab notebook containing:
+
+[Jupiter Notebook](used_car_Project.ipynb)
+  Auto-generated JSON Based script from the Colab notebook containing:
   - Data cleaning steps  
   - KPI calculations  
   - Plotly visualizations  
   - Interactive widgets  
   - Exploratory Data Analysis  
 
-- **`germancars_cleaned.csv`** *(generated during analysis)*  
+-[Raw Dataset](autoscout24-germany-raw_dataset.csv) *(generated during analysis)*  
   Preprocessed dataset after:
   - removing duplicates  
   - cleaning price column  
