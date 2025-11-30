@@ -37,14 +37,14 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 - What is the average price, mileage, and horsepower of used cars?
 - Which car makes and models are most popular?
 - How does price vary by year, mileage, and horsepower?
-- What proportion of cars use manual, automatic, or CVT transmission?
+- What proportion of cars use manual, automatic, or semi-automatic?
 - Which year and model appear most frequently in the dataset?
 
 ## 📁 Included Files
 
 ### **Main Analysis**
 
-- [Raw Dataset](autoscout24-germany-raw_dataset.csv)
+[Raw Dataset](autoscout24-germany-raw_dataset.csv)
 
 [Jupiter Notebook](used_car_Project.ipynb)
   Auto-generated JSON Based script from the Colab notebook containing:
@@ -54,14 +54,14 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
   - Interactive widgets  
   - Exploratory Data Analysis  
 
--[Cleaned Dataset](cleaned_germancars_dataset.csv) *(generated during analysis)*  
+[Cleaned Dataset](cleaned_germancars_dataset.csv) *(generated during analysis)*  
   Preprocessed dataset after:
   - removing duplicates  
   - cleaning price column  
   - filtering unrealistic values  
   - filling missing values  
 
-- [Power Point Presentation](GermanCars_REDI_IdowuAkinsope.pdf) 
+ [Power Point Presentation](GermanCars_REDI_IdowuAkinsope.pdf) 
   PowerPoint summarizing:
   - KPIs  
   - Key charts  
@@ -122,7 +122,7 @@ Plotly Dashboards Tutorials on Plotly.com
 
    This project was inspired by the following YouTube tutorial:
 
-   - [Car Sales Analysis Complete Project in Power BI]([https://youtu.be/k9ICA7LDIZQ?si=lM6tCC1Le-C9Ruy7](https://www.youtube.com/watch?v=N2sr4ngDl78) by **PianalytiX**
+   - [Car Sales Analysis Complete Project in Power BI](https://www.youtube.com/watch?v=N2sr4ngDl78) by **PianalytiX**
 
 > Special thanks for the step-by-step walkthrough that helped shape this project.
 
