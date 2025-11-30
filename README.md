@@ -29,6 +29,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 ## ⚙️How to Run the Analysis
  - Using Google Colab (Recommended)
  - Upload the dataset and script/notebook
+ - ![Widget](https://github.com/AKINSOPE001/REDI_PROJECT/blob/main/login_screenshot.JPG)widget.JPG
  - 
 
 Enable widget support:
