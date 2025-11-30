@@ -43,7 +43,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 ## 📁 Included Files
 
 ### **Main Analysis**
-- newcarproject.py
+
 - [Raw Dataset](autoscout24-germany-raw_dataset.csv)
 
 [Jupiter Notebook](used_car_Project.ipynb)
