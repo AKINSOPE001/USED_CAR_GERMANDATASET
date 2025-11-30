@@ -33,14 +33,14 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
   ![Widget](widget.JPG)
  - Run all cells.
 
-7.🔐 Key questions addressed:
+## 🔐 Key questions addressed:
 - What is the average price, mileage, and horsepower of used cars?
 - Which car makes and models are most popular?
 - How does price vary by year, mileage, and horsepower?
 - What proportion of cars use manual, automatic, or CVT transmission?
 - Which year and model appear most frequently in the dataset?
 
-  ## 📁 Included Files
+## 📁 Included Files
 
 ### **Main Analysis**
 - newcarproject.py
