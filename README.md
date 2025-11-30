@@ -85,8 +85,8 @@ flowchart TD
 
 ### 🧾DATA CLEANING
 ![](screenshot/data_cleaning.JPG)
-![](data_cleaning2.JPG)
-![](data_cleaning2.JPG)
+![](screenshot/data_cleaning2.JPG)
+![](screenshot/screenshotwidget.JPG)
 
 ### 🧾 QUANTITY VISUALISATION
 ![Make Chart](screenshot/hist.JPG)
