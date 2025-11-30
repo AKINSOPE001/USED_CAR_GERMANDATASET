@@ -46,7 +46,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 
 [Raw Dataset](autoscout24-germany-raw_dataset.csv)
 
-[Jupiter Notebook](used_car_Project.ipynb)
+[Jupiter Notebook]([used_car_Project.ipynb](https://colab.research.google.com/github/AKINSOPE001/USED_CAR_GERMANDATASET/blob/main/used_car_Project.ipynb))
   Auto-generated JSON Based script from the Colab notebook containing:
   - Data cleaning steps  
   - KPI calculations  
@@ -100,7 +100,7 @@ The following resources helped guide data cleaning, visualization design, and da
 Dataset Source
 
 Autoscout24 Germany Used Cars Dataset
-![Available at:](https://www.kaggle.com/datasets/ander289386/cars-germany)
+![Available at:](https://www.kaggle.com/datasets/ander289386/cars-germany/)
 Python Libraries
 ![Pandas Documentation](https://pandas.pydata.org/docs/)
 ![Numpy Documentation](https://numpy.org/doc/)
