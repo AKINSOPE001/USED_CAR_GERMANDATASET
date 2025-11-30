@@ -35,7 +35,7 @@ flowchart TD
     C --> D[Load CSV into Pandas]
     D --> E[Run All Cells From Top to Bottom]
     E --> F[Interact With Widgets and Charts]
-    F --> G[(Optional) Export Cleaned CSV]
+    F --> G[Optional Export Cleaned CSV]
 
     classDef step fill:#E8F1FF,stroke:#2F5FFF,stroke-width:1px,color:#000,border-radius:6px;
     class A,B,C,D,E,F,G step;
