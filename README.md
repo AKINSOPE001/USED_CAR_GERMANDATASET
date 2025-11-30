@@ -122,7 +122,7 @@ Plotly Dashboards Tutorials on Plotly.com
 
    This project was inspired by the following YouTube tutorial:
 
-   - [Car Sales Analysis Complete Project in Power BI]([https://youtu.be/k9ICA7LDIZQ?si=lM6tCC1Le-C9Ruy7](https://www.youtube.com/watch?v=N2sr4ngDl78)) by **PianalytiX**
+   - [Car Sales Analysis Complete Project in Power BI]([https://youtu.be/k9ICA7LDIZQ?si=lM6tCC1Le-C9Ruy7](https://www.youtube.com/watch?v=N2sr4ngDl78) by **PianalytiX**
 
 > Special thanks for the step-by-step walkthrough that helped shape this project.
 
