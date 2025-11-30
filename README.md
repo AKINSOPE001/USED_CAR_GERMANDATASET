@@ -98,9 +98,8 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 The following resources helped guide data cleaning, visualization design, and dashboard structuring:
 
 Dataset Source
+![Autoscout24 Germany Used Cars Dataset Available at:](https://www.kaggle.com/datasets/ander289386/cars-germany/)
 
-Autoscout24 Germany Used Cars Dataset
-![Available at:](https://www.kaggle.com/datasets/ander289386/cars-germany/)
 Python Libraries
 ![Pandas Documentation](https://pandas.pydata.org/docs/)
 ![Numpy Documentation](https://numpy.org/doc/)
