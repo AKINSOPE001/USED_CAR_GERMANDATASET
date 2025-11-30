@@ -115,7 +115,8 @@ Google Developers: Data Cleaning Fundamentals
 Towards Data Science: EDA Best Practices Articles
 
 Plotly Dashboards Tutorials on Plotly.com
-🤝 Acknowledgements
+
+## 🤝 Acknowledgements
 
    ReDI School Teachers and mentors
 
@@ -129,7 +130,7 @@ Plotly Dashboards Tutorials on Plotly.com
 
 
 
-🧪 Technologies Used:
+## 🧪 Technologies Used:
 This project was developed using Python in the Google Colab environment, leveraging libraries such as Pandas and NumPy for data cleaning and preprocessing, Matplotlib, Seaborn, and Plotly Express for interactive and static visualizations, and Ipywidgets for building interactive dashboards with dropdowns and KPI cards. The dataset consisted of German used-car listings with features including make, model, year, mileage, horsepower, fuel type, gear, and price. Markdown and HTML were used to document insights and display dashboard elements, enabling a clear and interactive exploration of the German used-car market.
 
 
