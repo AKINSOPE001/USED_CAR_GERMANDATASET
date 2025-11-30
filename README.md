@@ -61,15 +61,14 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
   - filtering unrealistic values  
   - filling missing values  
 
-- **`Car_Market_Analysis_Presentation.pptx`**  
-  Automatically generated PowerPoint summarizing:
+- [Power Point Presentation](GermanCars_REDI_IdowuAkinsope.pdf) 
+  PowerPoint summarizing:
   - KPIs  
   - Key charts  
   - Findings  
   - Recommendations  
 
 ---
-
 
 ## 📸 Screenshots
 ### 🧾KPI CARDS
@@ -95,17 +94,36 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 ![](relat.JPG)
 ![](corr.JPG)
 
+### 📚 References
+The following resources helped guide data cleaning, visualization design, and dashboard structuring:
+
+Dataset Source
+
+Autoscout24 Germany Used Cars Dataset
+![Available at:](https://www.kaggle.com/datasets/ander289386/cars-germany)
+Python Libraries
+![Pandas Documentation](https://pandas.pydata.org/docs/)
+![Numpy Documentation](https://numpy.org/doc/)
+![Plotly Express Documentation](https://plotly.com/python/plotly-express/)
+![Ipywidgets Documentation](https://ipywidgets.readthedocs.io/en/latest/)
+![Seaborn Documentation](https://seaborn.pydata.org/)
+
+General EDA Guidelines
+
+Google Developers: Data Cleaning Fundamentals
+
+Towards Data Science: EDA Best Practices Articles
+
+Plotly Dashboards Tutorials on Plotly.com
 🤝 Acknowledgements
 
    ReDI School Teachers and mentors
 
    This project was inspired by the following YouTube tutorial:
 
-   - [Student Management System Tutorial](https://youtu.be/k9ICA7LDIZQ?si=lM6tCC1Le-C9Ruy7) by **Coding Lifestyle 4u**
+   - [Car Sales Analysis Complete Project in Power BI]([https://youtu.be/k9ICA7LDIZQ?si=lM6tCC1Le-C9Ruy7](https://www.youtube.com/watch?v=N2sr4ngDl78)) by **PianalytiX**
 
 > Special thanks for the step-by-step walkthrough that helped shape this project.
-
-  Open-source libraries (ttkthemes, Pillow)
 
   ChatGPT for assistance in design, debugging, and documentation
 
