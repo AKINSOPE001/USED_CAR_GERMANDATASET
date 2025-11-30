@@ -28,20 +28,49 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 
 ## ⚙️How to Run the Analysis
  - Using Google Colab (Recommended)
- - Upload the dataset and script/notebook
- - ![Widget](widget.JPG)
- - 
+ - Upload the dataset and script
+ - Enable widget support:
+  ![Widget](widget.JPG)
+ - Run all cells.
 
-Enable widget support:
-   
-7.🔐 Admin Login Credentials
-Use the following credentials to access the admin panel:
+7.🔐 Key questions addressed:
+- What is the average price, mileage, and horsepower of used cars?
+- Which car makes and models are most popular?
+- How does price vary by year, mileage, and horsepower?
+- What proportion of cars use manual, automatic, or CVT transmission?
+- Which year and model appear most frequently in the dataset?
 
-Username: Admin
+  ## 📁 Included Files
 
-Password: RediSchool
+### **Main Analysis**
+- newcarproject.py
+  Auto-generated Python script from the Colab notebook containing:
+  - Data cleaning steps  
+  - KPI calculations  
+  - Plotly visualizations  
+  - Interactive widgets  
+  - Exploratory Data Analysis  
 
-⚠️ Note: The username and password are case-sensitive. Make sure to enter them exactly as shown.
+- **`germancars_cleaned.csv`** *(generated during analysis)*  
+  Preprocessed dataset after:
+  - removing duplicates  
+  - cleaning price column  
+  - filtering unrealistic values  
+  - filling missing values  
+
+### **Supporting Files**
+- **`cleaned_car_project.ipynb`** *(optional, if included)*  
+  A cleaned notebook version with improved structure and KPIs.
+
+- **`Car_Market_Analysis_Presentation.pptx`**  
+  Automatically generated PowerPoint summarizing:
+  - KPIs  
+  - Key charts  
+  - Findings  
+  - Recommendations  
+
+---
+
 
 ## 📸 Screenshots
 
