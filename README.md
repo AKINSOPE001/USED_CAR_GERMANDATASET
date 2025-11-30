@@ -27,7 +27,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
     pip install pandas, numpy, matplotlib, seaborn ,plotly ipywidgets
 
 ## ⚙️How to Run the Analysis
- ┌────────────────────────────────────────┐
+┌────────────────────────────────────────┐
 │        1. Open in Google Colab         │
 │----------------------------------------│
 │ - Go to colab.research.google.com      │
@@ -49,52 +49,52 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 ┌────────────────────────────────────────┐
 │     3. Upload the Raw Dataset          │
 │----------------------------------------│
-│ Run:                                   │
+│ Run:                                    │
 │ from google.colab import files         │
 │ uploaded = files.upload()              │
 │                                        │
-│ Then select your CSV file              │
+│ Then select your CSV file.             │
 └────────────────────────────────────────┘
                     │
                     ▼
 ┌────────────────────────────────────────┐
 │     4. Load the Dataset Into Pandas    │
 │----------------------------------------│
-│ Example:                               │
-│ import pandas as pd                    │
-│ cars = pd.read_csv
-  ("(autoscout24-germany-raw_dataset)")  │
+│ Example:                                │
+│ import pandas as pd                     │
+│ cars = pd.read_csv("autoscout24.csv")   │
 └────────────────────────────────────────┘
                     │
                     ▼
 ┌────────────────────────────────────────┐
 │       5. Run All Cells Top to Bottom   │
 │----------------------------------------│
-│ - Imports                              │
-│ - Data cleaning                        │
-│ - KPIs & functions                     │
-│ - Widgets                              │
-│ - Visualizations                       │
-│                                        │
-│ Recommended: Runtime → Run all         │
+│ - Imports                               │
+│ - Data cleaning                          │
+│ - KPIs & functions                       │
+│ - Widgets                                │
+│ - Visualizations                         │
+│                                          │
+│ Recommended: Runtime → Run all           │
 └────────────────────────────────────────┘
                     │
                     ▼
 ┌────────────────────────────────────────┐
-│    6. Interact With Widgets & Charts   │
+│    6. Interact With Widgets & Charts    │
 │----------------------------------------│
-│ - Select KPI options                   │
-│ - Switch between price/mileage/HP      │
-│ - Explore interactive Plotly charts    │
+│ - Select KPI options                     │
+│ - Switch between price/mileage/HP        │
+│ - Explore interactive Plotly charts      │
 └────────────────────────────────────────┘
                     │
                     ▼
 ┌────────────────────────────────────────┐
-│     7. (Optional) Save Cleaned CSV     │
+│     7. (Optional) Save Cleaned CSV      │
 │----------------------------------------│
-│ cars.to_csv("germancars_cleaned.csv")  │
+│ cars.to_csv("germancars_cleaned.csv")   │
 │ files.download("germancars_cleaned.csv")│
 └────────────────────────────────────────┘
+
 
 ## 🔐 Key questions addressed:
 - What is the average price, mileage, and horsepower of used cars?
