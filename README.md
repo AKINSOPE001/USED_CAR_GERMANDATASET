@@ -54,16 +54,12 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
   - Interactive widgets  
   - Exploratory Data Analysis  
 
--[Raw Dataset](autoscout24-germany-raw_dataset.csv) *(generated during analysis)*  
+-[Cleaned Dataset](cleaned_germancars_dataset.csv) *(generated during analysis)*  
   Preprocessed dataset after:
   - removing duplicates  
   - cleaning price column  
   - filtering unrealistic values  
   - filling missing values  
-
-### **Supporting Files**
-- **`cleaned_car_project.ipynb`** *(optional, if included)*  
-  A cleaned notebook version with improved structure and KPIs.
 
 - **`Car_Market_Analysis_Presentation.pptx`**  
   Automatically generated PowerPoint summarizing:
@@ -102,22 +98,9 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 
 
 🧪 Technologies Used:
-
-  Python
-  
-  Tkinter (GUI)
-  
-  MySQL (Database)
-  
-  ttk and Treeview (Data display)
-  
-  ttkthemes (Styling)
-  
-  PIL (Image handling)
-
-  CSV (file export)
+This project was developed using Python in the Google Colab environment, leveraging libraries such as Pandas and NumPy for data cleaning and preprocessing, Matplotlib, Seaborn, and Plotly Express for interactive and static visualizations, and Ipywidgets for building interactive dashboards with dropdowns and KPI cards. The dataset consisted of German used-car listings with features including make, model, year, mileage, horsepower, fuel type, gear, and price. Markdown and HTML were used to document insights and display dashboard elements, enabling a clear and interactive exploration of the German used-car market.
 
 
 
-              Developed by Akinsope Idowu, ReDI School Python(Hyrbid) student (SPRING 2025)
+              Developed by Akinsope Idowu, ReDI School Data Analytics student (WINTER 2025)
 
