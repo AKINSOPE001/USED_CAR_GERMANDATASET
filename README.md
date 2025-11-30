@@ -1,4 +1,4 @@
-# 🚗💨 USED-CAR MARKET (GERMANY DATASET)
+## 🚗💨 USED-CAR MARKET (GERMANY DATASET)
 
 A comprehensive analytical dashboard developed in Python using Pandas, Plotly, Matplotlib, and ipywidgets, designed to simplify and enhance exploration of the Autoscout24 Germany car dataset through interactive visualizations, KPI cards, data cleaning workflows, and dynamic insights into market pricing, mileage trends, gear-type proportions, and brand popularity.
 
