@@ -73,9 +73,11 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 
 ## 📸 Screenshots
 
-### 🔐 Login Screen
-![Login Screenshot](https://github.com/AKINSOPE001/REDI_PROJECT/blob/main/login_screenshot.JPG)
+### 🧾 QUANTITY VISUALISATION
+![Bar Chart](hist.JPG)
 
+### 🧾 DISTRIBUTION VISUALISATION
+![Bar Chart](hist.JPG)
 
 ### 🧾 Student Dashboard
 ![Dashboard Screenshot](https://github.com/AKINSOPE001/REDI_PROJECT/blob/main/ReDISchoolAPP_screenshot.JPG)
