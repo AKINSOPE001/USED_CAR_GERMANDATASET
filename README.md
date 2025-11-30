@@ -81,27 +81,28 @@ flowchart TD
 
 ## 📸 Screenshots
 ### 🧾KPI CARDS
-![KPI CARDS](KPI_CARD.JPG)
+![KPI CARDS](screenshot/KPI_CARD.JPG)
 
 ### 🧾DATA CLEANING
-![](data_cleaning.JPG)
+![](screenshot/data_cleaning.JPG)
+![](data_cleaning2.JPG)
 ![](data_cleaning2.JPG)
 
 ### 🧾 QUANTITY VISUALISATION
-![Make Chart](hist.JPG)
-![Model Chart](MODEL.JPG)
+![Make Chart](screenshot/hist.JPG)
+![Model Chart](screenshot/MODEL.JPG)
 
 ### 🧾 DISTRIBUTION VISUALISATION
-![](DIRSTRIBUTION.JPG)
-![](OFFER.JPG)
-![](boxplot.JPG)
+![](screenshot/DIRSTRIBUTION.JPG)
+![](screenshot/OFFER.JPG)
+![](screenshot/boxplot.JPG)
 
 ### 🧾 PROPORTION VISUALISATION
-![](gear.JPG)
+![](screenshot/gear.JPG)
 
 ### 🧾 RELATIONSHIP VISUALISATION
-![](relat.JPG)
-![](corr.JPG)
+![](screenshot/relat.JPG)
+![](screenshot/corr.JPG)
 
 ### 📚 References
 The following resources helped guide data cleaning, visualization design, and dashboard structuring:
