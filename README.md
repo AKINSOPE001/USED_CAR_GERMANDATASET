@@ -73,7 +73,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
 
 ## 📸 Screenshots
 ### 🧾KPI CARDS
-![KPI CARDS](KPI CARD.JPG)
+![KPI CARDS](KPI_CARD.JPG)
 
 ### 🧾DATA CLEANING
 ![](data_cleaning.JPG)
