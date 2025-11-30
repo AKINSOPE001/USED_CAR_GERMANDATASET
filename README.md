@@ -27,73 +27,7 @@ It uses interactive visualizations, KPI cards, and widgets to create a dashboard
     pip install pandas, numpy, matplotlib, seaborn ,plotly ipywidgets
 
 ## ⚙️How to Run the Analysis
-┌────────────────────────────────────────┐
-│        1. Open in Google Colab         │
-│----------------------------------------│
-│ - Go to colab.research.google.com      │
-│ - File → Open Notebook → GitHub tab    │
-│ - Paste your repository link            │
-└────────────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐
-│     2. Enable Widget Support           │
-│----------------------------------------│
-│ Run this cell BEFORE widget cells:     │
-│                                        │
-│ from google.colab import output        │
-│ output.enable_custom_widget_manager()  │
-└────────────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐
-│     3. Upload the Raw Dataset          │
-│----------------------------------------│
-│ Run:                                    │
-│ from google.colab import files         │
-│ uploaded = files.upload()              │
-│                                        │
-│ Then select your CSV file.             │
-└────────────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐
-│     4. Load the Dataset Into Pandas    │
-│----------------------------------------│
-│ Example:                                │
-│ import pandas as pd                     │
-│ cars = pd.read_csv("autoscout24.csv")   │
-└────────────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐
-│       5. Run All Cells Top to Bottom   │
-│----------------------------------------│
-│ - Imports                               │
-│ - Data cleaning                          │
-│ - KPIs & functions                       │
-│ - Widgets                                │
-│ - Visualizations                         │
-│                                          │
-│ Recommended: Runtime → Run all           │
-└────────────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐
-│    6. Interact With Widgets & Charts    │
-│----------------------------------------│
-│ - Select KPI options                     │
-│ - Switch between price/mileage/HP        │
-│ - Explore interactive Plotly charts      │
-└────────────────────────────────────────┘
-                    │
-                    ▼
-┌────────────────────────────────────────┐
-│     7. (Optional) Save Cleaned CSV      │
-│----------------------------------------│
-│ cars.to_csv("germancars_cleaned.csv")   │
-│ files.download("germancars_cleaned.csv")│
-└────────────────────────────────────────┘
+
 
 
 ## 🔐 Key questions addressed:
@@ -201,6 +135,21 @@ Plotly Dashboards Tutorials on Plotly.com
 ## 🧪 Technologies Used:
 This project was developed using Python in the Google Colab environment, leveraging libraries such as Pandas and NumPy for data cleaning and preprocessing, Matplotlib, Seaborn, and Plotly Express for interactive and static visualizations, and Ipywidgets for building interactive dashboards with dropdowns and KPI cards. The dataset consisted of German used-car listings with features including make, model, year, mileage, horsepower, fuel type, gear, and price. Markdown and HTML were used to document insights and display dashboard elements, enabling a clear and interactive exploration of the German used-car market.
 
+
+
+```markdown
+```mermaid
+flowchart LR
+
+    A([Open in Colab]) --> B([Enable Widget Support])
+    B --> C([Upload Dataset])
+    C --> D([Load CSV File])
+    D --> E([Run All Cells])
+    E --> F([Interact With KPIs & Charts])
+    F --> G([Optional: Export Cleaned Data])
+
+    classDef node fill:#F5F9FF,stroke:#0077FF,stroke-width:2px,color:#000,border-radius:8px;
+    class A,B,C,D,E,F,G node;
 
 
               Developed by Akinsope Idowu, ReDI School Data Analytics student (WINTER 2025)
